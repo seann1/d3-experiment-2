@@ -1,0 +1,28 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+
+div.bar {
+    display: inline-block;
+    width: 20px;
+    height: 75px;   /* We'll override this later */
+    margin-right: 3px;
+    background-color: teal;
+}
+
+.separator {
+	height: 60px;
+}
+
+.circle {
+	fill: red;
+	stroke: green;
+	stroke-width: 3px;
+}
+
+.elipse {
+	fill: blue;
+}
